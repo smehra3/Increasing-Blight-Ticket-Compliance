@@ -23,9 +23,9 @@ Additional Data to be used for future similar projects:
 * addresses.csv & latlons.csv - mapping from ticket id to addresses, and from addresses to lat/lon coordinates. 
 Note: misspelled addresses may be incorrectly geolocated.
 
-# **Data fields**
+**Data fields**
 
-# train.csv & test.csv
+**train.csv & test.csv**
 * ticket_id - unique identifier for tickets
 * agency_name - Agency that issued the ticket
 * inspector_name - Name of inspector that issued the ticket
@@ -44,7 +44,7 @@ Note: misspelled addresses may be incorrectly geolocated.
 * clean_up_cost - DPW clean-up or graffiti removal cost
 * judgment_amount - Sum of all fines and fees
 * grafitti_status - Flag for graffiti violations
-# train.csv only
+**train.csv only**
 payment_amount - Amount paid, if any
 * payment_date - Date payment was made, if it was received
 * payment_status - Current payment status as of Feb 1 2017
