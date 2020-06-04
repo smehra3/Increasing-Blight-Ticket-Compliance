@@ -56,7 +56,7 @@ payment_amount - Amount paid, if any
 *  1 = Responsible, compliant
 * compliance_detail - More information on why each ticket was marked compliant or non-compliant
 
-Predictions will be given as the probability that the corresponding blight ticket will be paid on time.
+Used **Gradient Boosting Regressor** to predict the probability that the corresponding blight ticket will be paid on time.
 
 The evaluation metric for this assignment is the Area Under the ROC Curve (AUC)
 
